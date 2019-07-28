@@ -13,6 +13,7 @@ def encode(number):
 	return (3953531 * number)
 
 def decode(y):
+	return(int(y) - 3953531)
 	pass
 hello_world()
 greet_by_name()
